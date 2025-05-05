@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mateusz Biernat – Gallery</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Georgia, serif;
+      margin: 0;
+      background: #f8f8f8;
+      color: #333;
+    }
+    nav {
+      background: #ffffff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    nav a {
+      margin: 0 0.5rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    section#gallery {
+      background: linear-gradient(180deg, #fdfdfd 0%, #f1f1f1 100%);
+      border-radius: 2rem;
+      padding: 2rem;
+      margin: 2rem auto;
+      max-width: 1000px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+    section#gallery h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #333;
+    }
+    section#gallery p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      color: #555;
+    }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+    }
+    .gallery-grid a img {
+      width: 100%;
+      height: auto;
+      border-radius: 1rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .gallery-grid a:hover img {
+      transform: scale(1.03);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Projects</a>
+      <a href="#">Recommendations</a>
+      <a href="#">Blog</a>
+      <a href="#">Downloads</a>
+      <a href="#">Contact</a>
+    </div>
+    <div>
+      <a href="index.html">🇵🇱</a>
+      <a href="index-en.html">🇬🇧</a>
+    </div>
+  </nav>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <p>Browse photos from Mateusz Biernat’s workshops, events, and initiatives.</p>
+    <div class="gallery-grid">
+      <a href="images/workshop1.jpg" data-lightbox="gallery" data-title="Workshop in Krakow">
+        <img src="images/thumbs/workshop1_thumb.jpg" alt="Workshop">
+      </a>
+      <a href="images/event1.jpg" data-lightbox="gallery" data-title="Author Meeting">
+        <img src="images/thumbs/event1_thumb.jpg" alt="Event">
+      </a>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+</body>
+</html>
