@@ -1,1 +1,0 @@
-Wersja klasyczna strony Mateusza Biernata – elegancka, przejrzysta, spokojna.
