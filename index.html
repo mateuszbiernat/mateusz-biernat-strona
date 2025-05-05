@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mateusz Biernat – Strona Główna</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      background: linear-gradient(to bottom, #fdfdfd, #f0f0f0);
+      margin: 0;
+      padding: 0;
+      color: #222;
+    }
+
+    header {
+      background: #fff;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    nav {
+      margin-bottom: 1rem;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #222;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    .hero h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    section {
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    .galeria-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      align-items: center;
+    }
+
+    @media (min-width: 600px) {
+      .galeria-grid {
+        flex-direction: row;
+        justify-content: center;
+      }
+    }
+
+    .galeria-item {
+      background: white;
+      border-radius: 1rem;
+      padding: 1rem;
+      text-decoration: none;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+      max-width: 200px;
+    }
+
+    .galeria-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 0.5rem;
+    }
+
+    .galeria-item span {
+      display: block;
+      margin-top: 0.5rem;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .galeria-item:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background: #f2f2f2;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mateusz Biernat</h1>
+    <nav>
+      <a href="index.html">O mnie</a>
+      <a href="oferta.html">Oferta</a>
+      <a href="projekty.html">Projekty</a>
+      <a href="rekomendacje.html">Rekomendacje</a>
+      <a href="blog.html">Blog</a>
+      <a href="materialy.html">Materiały</a>
+      <a href="kontakt.html">Kontakt</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Witaj na mojej stronie!</h1>
+    <p>Jestem Mateusz Biernat – edukator, autor i osoba zaangażowana w tworzenie środowisk wspierających zdrowie psychiczne i społeczne. Poznaj moje działania, projekty i idee.</p>
+  </section>
+
+  <section class="galeria">
+    <h2>Galeria</h2>
+    <p>Zobacz zdjęcia z wydarzeń, warsztatów i działań.</p>
+    <div class="galeria-grid">
+      <a href="warsztaty.html" class="galeria-item">
+        <img src="images/warsztaty.jpg" alt="Warsztaty" />
+        <span>Warsztaty</span>
+      </a>
+      <a href="wydarzenie.html" class="galeria-item">
+        <img src="images/wydarzenie.jpg" alt="Wydarzenie" />
+        <span>Wydarzenie</span>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Mateusz Biernat. Wszelkie prawa zastrzeżone.
+  </footer>
+
+</body>
+</html>
