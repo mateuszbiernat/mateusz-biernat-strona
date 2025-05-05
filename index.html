@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mateusz Biernat – Psycholog i Edukator</title>
+  <link rel="icon" href="https://fav.farm/🌱" />
+  <style>
+    body { font-family: 'Georgia', serif; background: #fdfaf6; color: #3b2f2f; margin: 0; padding: 0; }
+    section { padding: 40px 20px; max-width: 900px; margin: auto; }
+    h2, h3 { color: #4d392d; margin-bottom: 10px; }
+    a { color: #8b5e3c; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    ul { padding-left: 20px; margin-top: 0; }
+    .card { background: #fffaf3; margin-top: 20px; padding: 30px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+    blockquote { font-style: italic; margin: 20px 0 10px; color: #6e4c3d; border-left: 4px solid #d5bda3; padding-left: 15px; }
+    form input, form textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #d6c4af; border-radius: 5px; background: #fffefb; font-family: inherit; }
+    form button { padding: 10px 20px; background-color: #c39263; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 1em; }
+    form button:hover { background-color: #a66f41; }
+    footer { background: #f3e6d4; padding: 20px; text-align: center; }
+    footer p { font-size: 0.9em; color: #866c55; }
+
+    nav { background: #f3e6d4; padding: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+    #menu { list-style: none; padding-left: 0; display: flex; gap: 20px; flex-wrap: wrap; margin: 0; }
+    #menu-label { display: none; }
+    #menu-toggle { display: none; }
+    @media (max-width: 700px) {
+      #menu-label { display: block; font-size: 1.5em; cursor: pointer; }
+      #menu { display: none; flex-direction: column; gap: 10px; margin-top: 15px; }
+      #menu-toggle:checked + #menu-label + #menu { display: flex; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div style="font-size: 1.6em; font-weight: bold; color: #3b2f2f;">Mateusz Biernat</div>
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" id="menu-label">☰</label>
+      <ul id="menu">
+        <li><a href="#">Start</a></li>
+        <li><a href="#about">O mnie</a></li>
+        <li><a href="#offer">Oferta</a></li>
+        <li><a href="#projects">Projekty</a></li>
+        <li><a href="#recommendations">Rekomendacje</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="card" id="about">
+    <h2>O mnie</h2>
+    <p>Psycholog specjalizujący się w zdrowiu psychicznym, wsparciu rówieśniczym i deinstytucjonalizacji. Działam na styku nauki, praktyki i osobistego doświadczenia. Moje podejście łączy troskę z wiedzą – i wiarę w potencjał zdrowienia.</p>
+  </section>
+  <section class="card" id="offer">
+    <h2>Oferta</h2>
+    <p>Terapia indywidualna, Otwarte Dialogi, mentoring, szkolenia z eCPR i Peer Support. Wsparcie dla osób w kryzysie i specjalistów. Zakres i warunki ustalane indywidualnie.</p>
+  </section>
+  <section class="card" id="projects">
+    <h2>Działania i projekty</h2>
+    <ul>
+      <li>MapaWsparcia.PL</li>
+      <li>Fundacja „Człowiek”</li>
+      <li>Projekty Erasmus+, Mental Health Europe</li>
+    </ul>
+  </section>
+  <section class="card" id="recommendations">
+    <h2>Rekomendacje i uznanie</h2>
+    <blockquote>„Pan Mateusz Biernat dał się poznać jako osoba bardzo dobrze przygotowana merytorycznie […]”</blockquote>
+    <p><strong>– dr Anna Depukat</strong>, Szpital im. J. Babińskiego</p>
+  </section>
+  <section class="card" id="contact">
+    <h2>Kontakt</h2>
+    <p><strong>Email:</strong> <a href="mailto:mateuszbiernat1980@gmail.com">mateuszbiernat1980@gmail.com</a><br>
+    <strong>Telefon:</strong> <a href="tel:+48519635755">+48 519 635 755</a></p>
+  </section>
+  <footer>
+    <p>&copy; 2025 Mateusz Biernat. Wszelkie prawa zastrzeżone.</p>
+  </footer>
+</body>
+</html>
