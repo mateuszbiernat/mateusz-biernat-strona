@@ -1,1 +1,0 @@
-Wersja 2 strony – delikatna, przejrzysta, z liniami oddzielającymi sekcje.
