@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mateusz Biernat – Strona Główna</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      margin: 0;
+      background: #f8f8f8;
+      color: #333;
+    }
+    nav {
+      background: #ffffff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    nav a {
+      margin: 0 0.5rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #333;
+    }
+    section p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      color: #555;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-width: 600px;
+    }
+    input, textarea {
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 0.5rem;
+      font-family: Georgia, serif;
+      font-size: 1rem;
+    }
+    button {
+      padding: 0.75rem;
+      background-color: #444;
+      color: white;
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    button:hover {
+      background-color: #666;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div>
+      <a href="#o-mnie">O mnie</a>
+      <a href="#oferta">Oferta</a>
+      <a href="#projekty">Projekty</a>
+      <a href="#rekomendacje">Rekomendacje</a>
+      <a href="#blog">Blog</a>
+      <a href="#materialy">Materiały</a>
+      <a href="#kontakt">Kontakt</a>
+    </div>
+    <div>
+      <a href="index.html">🇵🇱</a>
+      <a href="index-en.html">🇬🇧</a>
+    </div>
+  </nav>
+
+  <section id="o-mnie">
+    <h2>O mnie</h2>
+    <p>Nazywam się Mateusz Biernat. Pracuję w obszarze zdrowia psychicznego, edukacji i wsparcia opartego na relacjach. 
+    Moja strona to przestrzeń dla tych, którzy szukają nowych dróg wspierania.</p>
+  </section>
+
+  <section id="oferta">
+    <h2>Oferta</h2>
+    <p>Oferuję warsztaty, konsultacje i współpracę w zakresie edukacji, zdrowienia, rozwoju zespołów i projektów opartych na współdziałaniu.</p>
+  </section>
+
+  <section id="projekty">
+    <h2>Projekty</h2>
+    <p>Realizuję i wspieram projekty z zakresu zdrowia psychicznego, edukacji alternatywnej, peer support, dialogu otwartego oraz przeciwdziałania stygmatyzacji.</p>
+  </section>
+
+  <section id="rekomendacje">
+    <h2>Rekomendacje</h2>
+    <p>Tutaj znajdziesz opinie współpracowników, uczestników warsztatów i organizacji, z którymi działam.</p>
+  </section>
+
+  <section id="blog">
+    <h2>Blog</h2>
+    <p>Dzielę się refleksjami, tekstami autorskimi i aktualnościami z mojej praktyki i życia.</p>
+  </section>
+
+  <section id="materialy">
+    <h2>Materiały do pobrania</h2>
+    <p>Tutaj znajdziesz moje publikacje, skrypty warsztatowe i inne materiały edukacyjne.</p>
+  </section>
+
+  <section id="kontakt">
+    <h2>Kontakt</h2>
+    <p>Masz pytania lub chcesz nawiązać współpracę? Skontaktuj się ze mną przez formularz poniżej:</p>
+    <form action="https://formspree.io/f/mateusz-biernat-test" method="POST">
+      <input type="text" name="name" placeholder="Imię i nazwisko" required>
+      <input type="email" name="email" placeholder="Adres e-mail" required>
+      <textarea name="message" rows="5" placeholder="Twoja wiadomość" required></textarea>
+      <button type="submit">Wyślij wiadomość</button>
+    </form>
+  </section>
+</body>
+</html>
