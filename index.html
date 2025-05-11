@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mateusz Biernat – Strona główna</title>
+  <meta name="description" content="Oficjalna strona Mateusza Biernata – psychologa, pedagoga i rzecznika zdrowia psychicznego.">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Georgia, serif;
+      background: #f9f9f9;
+      margin: 0;
+      color: #222;
+    }
+    nav {
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 1rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    .dropdown {
+      position: relative;
+      margin: 0 1rem;
+    }
+    .dropdown > a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top: 2rem;
+      background-color: #ffffff;
+      min-width: 180px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 0.5rem 0;
+      border-radius: 8px;
+    }
+    .dropdown-content a {
+      display: block;
+      padding: 0.5rem 1rem;
+      color: #333;
+      text-decoration: none;
+    }
+    .dropdown-content a:hover {
+      background-color: #f0f8ff;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    header, main, footer {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2em 1em;
+    }
+    footer {
+      text-align: center;
+      color: #777;
+      font-size: 0.9em;
+      padding-bottom: 2em;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="dropdown">
+    <a href="#o-mnie">O mnie</a>
+    <div class="dropdown-content">
+      <a href="#bio">Biogram</a>
+      <a href="#podejscie">Podejście</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <a href="#doswiadczenie">Doświadczenie</a>
+    <div class="dropdown-content">
+      <a href="#obszary">Obszary pracy</a>
+      <a href="#instytucje">Instytucje</a>
+      <a href="#miedzynarodowe">Działania międzynarodowe</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <a href="#oferta">Oferta</a>
+    <div class="dropdown-content">
+      <a href="#spotkania">Spotkania indywidualne</a>
+      <a href="#szkolenia">Szkolenia</a>
+      <a href="#wystapienia">Wystąpienia</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <a href="#publikacje">Publikacje</a>
+    <div class="dropdown-content">
+      <a href="#artykuly">Artykuły</a>
+      <a href="#wywiady">Wywiady</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <a href="#multimedia">Multimedia</a>
+    <div class="dropdown-content">
+      <a href="#podcasty">Podcasty</a>
+      <a href="#filmy">Wideo</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <a href="#blog">Blog</a>
+    <div class="dropdown-content">
+      <a href="#jan-naturalny">Jan Naturalny</a>
+      <a href="#refleksje">Refleksje</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <a href="#kontakt">Kontakt</a>
+    <div class="dropdown-content">
+      <a href="#formularz">Formularz</a>
+      <a href="#media">Media</a>
+    </div>
+  </div>
+</nav>
+
+<header>
+  <img src="biernat-PE.jpg" alt="Mateusz Biernat" style="max-width: 180px; border-radius: 12px; margin-bottom: 1rem;">
+  <h1>Mateusz Biernat</h1>
+  <p>Psycholog, pedagog, edukator. Przestrzeń spotkania, wiedzy i wsparcia.</p>
+</header>
+
+<main>
+  <section id="o-mnie"><h2>O mnie</h2></section>
+  <section id="doswiadczenie"><h2>Doświadczenie</h2></section>
+  <section id="oferta"><h2>Oferta</h2></section>
+  <section id="publikacje"><h2>Publikacje</h2></section>
+  <section id="multimedia"><h2>Multimedia</h2></section>
+  <section id="blog"><h2>Blog</h2></section>
+  <section id="kontakt"><h2>Kontakt</h2></section>
+</main>
+
+<footer>
+  <p>&copy; 2025 Mateusz Biernat | 🇵🇱 / 🇬🇧</p>
+</footer>
+
+</body>
+</html>
