@@ -1,0 +1,56 @@
+
+body {
+  font-family: Georgia, serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 2em 1em;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header, footer {
+  text-align: center;
+  padding: 1em;
+  background: #eaeaea;
+  margin-bottom: 2em;
+}
+nav a {
+  margin: 0 1em;
+  text-decoration: none;
+  color: #333;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+section p, section ul {
+  line-height: 1.6;
+  margin-bottom: 1.5em;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+input, textarea {
+  padding: 0.75em;
+  font-family: inherit;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  background: #444;
+  color: white;
+  border: none;
+  padding: 0.75em;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 4px;
+}
+button:hover {
+  background: #222;
+}
