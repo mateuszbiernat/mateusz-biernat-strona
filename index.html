@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Mateusz Biernat</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Mateusz Biernat</h1>
+  <p>To jest miejsce dla Ciebie, jeśli szukasz sensu, relacji i innej drogi wspierania.</p>
+</header>
+
+<nav>
+  <button class="hamburger" onclick="toggleMenu()">☰ Menu</button>
+  <div id="nav-links">
+    <a href="#o-mnie">O mnie</a>
+    <a href="#oferta">Oferta</a>
+    <a href="#doswiadczenie">Doświadczenie</a>
+    <a href="#wiedza">Wiedza</a>
+    <a href="#blog">Blog</a>
+    <a href="#studio">Studio</a>
+    <a href="#kontakt">Kontakt</a>
+    <span style="margin-left:1em;">
+      <button onclick="switchLang('pl')">PL</button>
+      <button onclick="switchLang('en')">EN</button>
+    </span>
+  </div>
+</nav>
+
+<main>
+  <section id="o-mnie">
+    <h2>O mnie</h2>
+    <p>Psycholog kliniczny, edukator, terapeuta i rzecznik. Od 15 lat wspieram ludzi w kryzysie psychicznym i działam na rzecz zmiany systemowej w opiece psychiatrycznej.</p>
+  </section>
+
+  <section id="oferta">
+    <h2>Oferta współpracy</h2>
+    <ul>
+      <li>Spotkania indywidualne (Otwarte Dialogi)</li>
+      <li>Szkolenia i warsztaty</li>
+      <li>Wystąpienia, konsultacje</li>
+    </ul>
+  </section>
+
+  <section id="doswiadczenie">
+    <h2>Doświadczenie zawodowe i społeczne</h2>
+    <p>Pracuję jako psycholog i edukator – z osobami młodymi, rodzicami, zespołami i instytucjami. Towarzyszę w kryzysach, wątpliwościach, zmianie. Współtworzyłem programy edukacyjne, prowadziłem warsztaty i szkolenia w Polsce i za granicą.</p>
+  </section>
+
+  <section id="wiedza">
+    <h2>Publikacje i wiedza</h2>
+    <ul>
+      <li>„Psychologiczne koszty diagnozy psychiatrycznej” – Czasopismo Psychologiczne</li>
+      <li>„Peer support & recovery” – Ethics International Press</li>
+      <li>Współpraca z A. Chudzicką-Czupałą, D. Fisherem, M. Trojańską</li>
+    </ul>
+  </section>
+
+  <section id="blog">
+    <h2>Blog</h2>
+    <p>(w przygotowaniu)</p>
+  </section>
+
+  <section id="studio">
+    <h2>Studio</h2>
+    <p>(przestrzeń dla projektów, nagrań, spotkań edukacyjnych – więcej informacji wkrótce)</p>
+  </section>
+
+  <section id="kontakt">
+    <h2>Kontakt</h2>
+    <form action="mailto:mateuszbiernat1980@gmail.com" method="post" enctype="text/plain">
+      <label>Imię i nazwisko:<br><input type="text" name="name"></label><br>
+      <label>Adres e-mail:<br><input type="email" name="email"></label><br>
+      <label>Wiadomość:<br><textarea name="message" rows="5"></textarea></label><br>
+      <input type="submit" value="Wyślij">
+    </form>
+    <p style="margin-top:1em;">
+      📄 <a href="Mateusz_Biernat_CV.pdf" download>Pobierz moje CV (PDF)</a>
+    </p>
+  </section>
+
+  <div style="text-align:center; margin-top:3em;">
+    <button onclick="scrollToTop()" style="background:#003366; color:#fff; border:none; padding:0.6em 1.2em; cursor:pointer; font-size:1em;">↑ Wróć na górę</button>
+  </div>
+</main>
+
+
+<footer>
+  <p>© Mateusz Biernat – Wszystkie prawa zastrzeżone</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
